@@ -1,0 +1,23 @@
+meta {
+  name: authenticate
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{host}}authenticate
+  body: json
+}
+
+body:json {
+  {
+    "email":"{{username}}",
+    "password":"{{password}}",
+    "server": "outlook.office365.com",
+    "port": 993
+  }
+}
+
+vars:post-response {
+  session: res.body
+}
