@@ -6,7 +6,7 @@ It' a web email client with simple styling, rule engine, and tools to manage mai
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](screenshot.png)
 
 
 ## Environment Variables
